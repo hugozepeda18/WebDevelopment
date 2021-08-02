@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Summer Vacation</title>
+        <!-- CSS -->
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <span>—  My Trip to  —</span>
+                <h1>The Golden State</h1>
+            </header>
+            <!-- Thumbnail Images -->
+            <a href="assets/images/image1.jpg" data-lightbox="roadtrip" data-title="Surfing">
+                <img src="assets/thumbnails/thumb1.jpg" alt="Surfing">
+            </a>
+            <a href="assets/images/image2.jpg" data-lightbox="roadtrip" data-title="Lifeguard Stand">
+                <img src="assets/thumbnails/thumb2.jpg" alt="Lifeguard Stand"/>
+            </a>
+            <a href="assets/images/image3.jpg" data-lightbox="roadtrip" data-title="Hot Air Balloon">
+            <img src="assets/thumbnails/thumb3.jpg" alt="Hot Air Balloon"/>
+            </a>
+            <a href="assets/images/image4.jpg" data-lightbox="roadtrip" data-title="Field Freedom">
+            <img src="assets/thumbnails/thumb4.jpg" alt="Field Freedom"/>
+            </a>
+            <a href="assets/images/image5.jpg" data-lightbox="roadtrip" data-title="Golden Gate Bridge">
+            <img src="assets/thumbnails/thumb5.jpg" alt="Golden Gate Bridge"/>
+            </a>
+            <a href="assets/images/image6.jpg" data-lightbox="roadtrip" data-title="Pacific Ocean Sunset">
+            <img src="assets/thumbnails/thumb6.jpg" alt="Pacific Ocean Sunset"/>
+            </a>
+        </div>
+        <!-- JavaScript -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="../lightbox2-2.11.3/dist/js/lightbox.js"></script>
+        <script>
+            lightbox.option({
+            'resizeDuration': 200,
+            'wrapAround': true
+            })
+        </script>
+    </body>
+</html>
